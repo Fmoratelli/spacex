@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>SpaceX 2</title>
+    <title>SpaceX</title>
     <img src="/logo.png" alt="" />
     <a href="./links/Spaceships.html">| The SpaceShips |</a>
     <a href="./links/HireUs.html">Hire Us |</a>
@@ -10,8 +10,15 @@
 
   <body>
     <div>
-      <h2 style="color: red">Space Exploration Technologies Corp.</h2>
-
+      <h2 id="home" style="color: rgb(2, 58, 180)">
+        Space Exploration Technologies Corp.
+      </h2>
+      <h3>About:</h3>
+      <ul>
+        <li><a href="#services">Our Services</a></li>
+        <li><a href="#prices">Our Prices</a></li>
+      </ul>
+      <h3>Our History</h3>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt
         tempore nesciunt natus vero, perspiciatis eum voluptatum voluptatem
@@ -45,7 +52,7 @@
     </div>
 
     <div>
-      <h2>Our Services</h2>
+      <h3 id="services">Our Services</h3>
 
       <ul>
         <li>Readable content of a page when looking</li>
@@ -55,8 +62,8 @@
       </ul>
     </div>
 
-    <div>
-      <h2>Prices</h2>
+    <section>
+      <h3 id="prices">Prices</h3>
       <table border="2">
         <thead>
           <tr>
@@ -89,6 +96,9 @@
           </tr>
         </thead>
       </table>
-    </div>
+    </section>
   </body>
+  <footer>
+    <small><a href="#home">Home</a></small>
+  </footer>
 </html>
