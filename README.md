@@ -1,3 +1,4 @@
 # spacex
 
-Thats my first HTML page ans it's just the beggining. 
+Thats my first HTML page and it's just the beggining. 
+It was made for an exercise class.
